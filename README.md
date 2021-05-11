@@ -1,4 +1,4 @@
-# VAC_Bypass
+# VAC Bypass
 
 Valve Anti-Cheat bypass written in C.
 
@@ -10,7 +10,7 @@ Microsoft Visual Studio 2019 (preferably latest version i.e. 16.2.5), platform t
 ### Cloning
 The very first step in order to compile VAC Bypass is to clone this repo from GitHub to your local computer. Git is required to step futher, if not installed download it [here](https://git-scm.com). Open git bash / git cmd / cmd and enter following command:
 ```
-git clone https://github.com/smuv/VAC-Bypass.git
+git clone https://github.com/danielkrupinski/VAC-Bypass.git
 ```
 `VAC-Bypass` folder should have been succesfully created, containing all the source files.
 
@@ -36,7 +36,7 @@ It is mandatory to strictly follow each step of loading in order to make bypass 
 
 **Method 2**:
 1. Close Steam client if open.
-1. Compile and run [VAC Bypass Loader](https://github.com/smuv/VAC_Bypass_Loader)
+1. Compile and run [VAC Bypass Loader](https://github.com/danielkrupinski/VAC-Bypass-Loader)
 
 ## Experiment
 Bypass has been tested with CS:GO game and Cheat Engine cheating program attached to the game process.
@@ -48,14 +48,14 @@ With bypass:
 * No [VAC Error](https://support.steampowered.com/kb_article.php?ref=2117-ilzv-2837) during play, no VAC Ban at all.
 
 ## How it works
-The goal is to make https://github.com/smuv/VAC/blob/2eeb40e38d0f0d7b828dbacb663ee00aef15c1ca/VAC/Utils.c#L187
-function return `false` then VAC aborts scan for cheats. It can be done by bypassing [this check](https://github.com/smuv/VAC/blob/2eeb40e38d0f0d7b828dbacb663ee00aef15c1ca/VAC/Utils.c#L195) for example.
+The goal is to make https://github.com/danielkrupinski/VAC/blob/2eeb40e38d0f0d7b828dbacb663ee00aef15c1ca/VAC/Utils.c#L187
+function return `false` then VAC aborts scan for cheats. It can be done by bypassing [this check](https://github.com/danielkrupinski/VAC/blob/2eeb40e38d0f0d7b828dbacb663ee00aef15c1ca/VAC/Utils.c#L195) for example.
 
 ## See also
-- [VAC](https://github.com/smuv/vac) - source code of Valve Anti-Cheat obtained from disassembly of compiled modules.
-- [VAC Bypass Loader](https://github.com/smuv/VAC_Bypass_Loader) - loader for VAC Bypas written in C.
+- [VAC](https://github.com/danielkrupinski/vac) - source code of Valve Anti-Cheat obtained from disassembly of compiled modules.
+- [VAC Bypass Loader](https://github.com/danielkrupinski/vac) - loader for VAC Bypas written in C.
 
 ## License
-> Made By Daniel Krupiński
+> Copyright (c) 2019 Daniel Krupiński
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/mit-license.php) - see the [LICENSE](LICENSE) file for details.
