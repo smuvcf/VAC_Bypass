@@ -56,6 +56,6 @@ function return `false` then VAC aborts scan for cheats. It can be done by bypas
 - [VAC Bypass Loader](https://github.com/smuv/VAC_Bypass_Loader) - loader for VAC Bypas written in C.
 
 ## License
-> Copyright (c) 2019 Daniel Krupiński
+> Made By Daniel Krupiński
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/mit-license.php) - see the [LICENSE](LICENSE) file for details.
