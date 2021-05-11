@@ -36,7 +36,7 @@ It is mandatory to strictly follow each step of loading in order to make bypass 
 
 **Method 2**:
 1. Close Steam client if open.
-1. Compile and run [VAC Bypass Loader](https://github.com/danielkrupinski/VAC-Bypass-Loader)
+1. Compile and run [VAC Bypass Loader](https://github.com/smuv/VAC_Bypass_Loader)
 
 ## Experiment
 Bypass has been tested with CS:GO game and Cheat Engine cheating program attached to the game process.
@@ -53,7 +53,7 @@ function return `false` then VAC aborts scan for cheats. It can be done by bypas
 
 ## See also
 - [VAC](https://github.com/danielkrupinski/vac) - source code of Valve Anti-Cheat obtained from disassembly of compiled modules.
-- [VAC Bypass Loader](https://github.com/danielkrupinski/vac) - loader for VAC Bypas written in C.
+- [VAC Bypass Loader](https://github.com/smuv/VAC_Bypass_Loader) - loader for VAC Bypas written in C.
 
 ## License
 > Made By Daniel Krupiński
