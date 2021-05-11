@@ -10,7 +10,7 @@ Microsoft Visual Studio 2019 (preferably latest version i.e. 16.2.5), platform t
 ### Cloning
 The very first step in order to compile VAC Bypass is to clone this repo from GitHub to your local computer. Git is required to step futher, if not installed download it [here](https://git-scm.com). Open git bash / git cmd / cmd and enter following command:
 ```
-git clone https://github.com/danielkrupinski/VAC-Bypass.git
+git clone https://github.com/smuv/VAC-Bypass.git
 ```
 `VAC-Bypass` folder should have been succesfully created, containing all the source files.
 
